@@ -1,0 +1,24 @@
+{
+  "name": "async-content-transition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cameron-Beck-coding/async-content-transition.git"
+  },
+  "keywords": [],
+  "author": "cameron-beck-coding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cameron-Beck-coding/async-content-transition/issues"
+  },
+  "homepage": "https://github.com/Cameron-Beck-coding/async-content-transition#readme"
+}
