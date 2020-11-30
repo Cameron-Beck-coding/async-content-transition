@@ -1,14 +1,10 @@
 {
   "name": "async-content-transition",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.1.1",
+  "description": "A simple package that puts in a transition for async content",
+  "main": "async-content.vue",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "core-js": "^2.6.5",
-    "vue": "^2.6.10"
   },
   "repository": {
     "type": "git",

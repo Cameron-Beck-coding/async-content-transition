@@ -16,7 +16,6 @@ loading-content-div {
     width: 100%;
     height: 100%;
 }
-
 .spinner {
     width: 40px;
     height: 40px;
