@@ -50,9 +50,6 @@ loading-content-div {
 </style>
 <script>
 import 'whatwg-fetch'
-exports.printMsg = function() {
-  console.log("This is a message from the demo package");
-}
 export default {
     name: 'async-content',
     props: {
