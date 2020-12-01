@@ -51,7 +51,6 @@ loading-content-div {
 <script>
 import 'whatwg-fetch'
 export default {
-    name: 'async-content',
     props: {
         loaded: undefined,
         showSpinner: {
