@@ -1,5 +1,5 @@
 <template>
-  <transition name="fade" mode="out-in" class="transition">
+  <transition name="fade" mode="out-in" v-on:after-leave="sendEvent()">
     <div v-if="!loaded && showSpinner" key="async-content-spinner" name="loading-content">
       <div class="loading-content-div">
         <div class="spinner"></div>
@@ -55,15 +55,10 @@ export default {
       default: true,
     },
   },
-  mounted:()=>{
-    const transition=document.querySelector('.transition')
-    transition.addEventListener('transitionend',()=>{
-      this.$emit('done')
-    })
-  },
-  beforeDestroy(){
-    window.removeEventListener('transitionend');
+  methods:{
+    sendEvent(){
+      this.$emit('done');
+    }
   }
-  
 };
 </script>
