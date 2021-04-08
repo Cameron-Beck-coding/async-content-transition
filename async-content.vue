@@ -1,5 +1,5 @@
 <template>
-  <transition name="fade" mode="out-in" v-on:after-leave="sendEvent()">
+  <transition name="fade" mode="out-in" v-on:after-enter="sendEvent()">
     <div v-if="!loaded && showSpinner" key="async-content-spinner" name="loading-content">
       <div class="loading-content-div">
         <div class="spinner"></div>
